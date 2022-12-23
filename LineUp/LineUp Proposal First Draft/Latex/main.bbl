@@ -318,6 +318,32 @@ appnaq}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Oxford Learner's Dictionary}%
+}{%
+{Oxford Learner's Dictionary}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+OxfordDictionary2022}
+\APACinsertmetastar {%
+OxfordDictionary2022}%
+\begin{APACrefauthors}%
+{Oxford Learner's Dictionary}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Queue.} {Queue.}
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.oxfordlearnersdictionaries.com/us/definition/english/queue_2}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {Q-Matic AB}%
 }{%
 {Q-Matic AB}%
@@ -340,41 +366,6 @@ qmatic}%
 \begin{APACrefURL}
   \url{https://www.qmatic.com/solutions/virtual-queuing-system}
   \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Queue}}{%
-\APACcitebtitle {Queue}}{%
-{\protect \APACyear {2022}}%
-}]{%
-OxfordDictionary2022}
-\APACinsertmetastar {%
-OxfordDictionary2022}%
-\APACrefbtitle {Queue.} {Queue.}
-\newblock
-\APACrefYearMonthDay{2022}{}{}.
-\newblock
-\APACaddressPublisher{}{Oxford University Press}.
-\newblock
-\begin{APACrefURL}
-  \url{https://www.oxfordlearnersdictionaries.com/us/definition/english/queue_2}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Queue Management: Systems, Products and Best Practices}}{%
-\APACcitebtitle {Queue Management: Systems, Products and Best Practices}}{%
-{\protect \APACyear {2013}}%
-}]{%
-TamisCorp2013}
-\APACinsertmetastar {%
-TamisCorp2013}%
-\APACrefbtitle {Queue Management: Systems, Products and Best Practices.} {Queue
-  management: Systems, products and best practices.}
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-\APACaddressPublisher{}{The Tamis Corporation}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -484,6 +475,29 @@ Thamrin, D.%
 \newblock
 \begin{APACrefURL} \url{https://www.qmatic.com/blog/virtual-queuing-system}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{The Tamis Corporation}%
+}{%
+{The Tamis Corporation}%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+TamisCorp2013}
+\APACinsertmetastar {%
+TamisCorp2013}%
+\begin{APACrefauthors}%
+{The Tamis Corporation}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Queue Management: Systems, Products and Best Practices}
+  {Queue management: Systems, products and best practices}.{\BBCQ}
+\newblock
+
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

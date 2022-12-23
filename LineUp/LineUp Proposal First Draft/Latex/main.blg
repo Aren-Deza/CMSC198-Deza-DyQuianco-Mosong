@@ -41,6 +41,7 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry thamrin2020qmatic
 while executing---line 5079 of file apacite.bst
+Warning--No journal in TamisCorp2013
 Warning--No journal in waitwhile2022survey
 ptr=1, stack=
 
@@ -48,43 +49,43 @@ ptr=1, stack=
 while executing---line 5079 of file apacite.bst
 You've used 20 entries,
             6951 wiz_defined-function locations,
-            1402 strings with 14304 characters,
-and the built_in function-call counts, 31632 in all, are:
-= -- 4020
-> -- 248
-< -- 1221
-+ -- 1157
-- -- 46
-* -- 1825
-:= -- 5203
-add.period$ -- 84
+            1404 strings with 14356 characters,
+and the built_in function-call counts, 31730 in all, are:
+= -- 4003
+> -- 268
+< -- 1241
++ -- 1159
+- -- 54
+* -- 1828
+:= -- 5278
+add.period$ -- 85
 call.type$ -- 20
-change.case$ -- 342
+change.case$ -- 344
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 807
-empty$ -- 1513
-format.name$ -- 364
-if$ -- 6472
+cite$ -- 44
+duplicate$ -- 813
+empty$ -- 1477
+format.name$ -- 392
+if$ -- 6452
 int.to.chr$ -- 0
 int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 481
-num.names$ -- 148
-pop$ -- 744
+newline$ -- 495
+num.names$ -- 164
+pop$ -- 693
 preamble$ -- 1
-purify$ -- 80
+purify$ -- 82
 quote$ -- 0
-skip$ -- 2352
+skip$ -- 2392
 stack$ -- 0
-substring$ -- 1325
-swap$ -- 475
-text.length$ -- 65
+substring$ -- 1331
+swap$ -- 482
+text.length$ -- 67
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1840
-warning$ -- 3
-while$ -- 132
+type$ -- 1792
+warning$ -- 4
+while$ -- 138
 width$ -- 0
-write$ -- 560
+write$ -- 570
 (There were 4 error messages)
