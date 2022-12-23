@@ -1,0 +1,82 @@
+%   Filename    : chapter_4.tex 
+\chapter{Research Methodology}
+
+\section{Research Activities}
+
+The development of this project will be executed by following the waterfall model of design, which is a sequential approach to software development where the project is completed in various stages. As the development team is constrained by both time and budget, the waterfall model is deemed appropriate to use due to its simplicity, structure, and low time consumption. Furthermore, the sequential approach to development offered by the waterfall method is effective to use in the case of this particular project, where the requirements are not necessarily complex, and the project’s scope is clearly defined by the developers’ own specifications ahead of time.
+
+In line with this approach, the project’s development is structured into four distinct phases:
+
+\noindent{\textbf{Analysis and Requirements gathering}} \\
+The researchers identify inconvenient queueing strategies as a problem that needs to be solved. After identifying virtual queue management systems as a suitable technology-based solution, the researchers analyze similar systems and technologies to understand how they are developed and implemented, and to formulate requirements for how such a system should be designed. 
+
+\noindent{\textbf{System and Product Design}} \\
+Once the requirements have been established, the developers work on defining the features and functionalities of the system. 
+Here, the application’s front end is developed as a wireframe prototype using Figma, an application for interface design.
+All design decisions and other relevant information are compiled in the form of a project proposal to be delivered to the system’s stakeholders for consultation and approval.
+
+
+\noindent{\textbf{Coding and implementation}} \\
+This phase is expected to take the most development time, and will thus be given an appropriate amount of attention so that each of the application’s intended functionalities will be properly implemented.
+
+The mobile application’s front end is to be built using the Kotlin programming language, using Android Studio as an integrated development environment with the Flutter software development kit. Kotlin and Android Studio were considered to be an appropriate choice due to the developers already being familiar with their use, and the Flutter SDK was selected to ensure the application could be compatible with both Android and iOS operating systems.
+
+The backend will be built using a MySQL database, and the Socket.io framework for NodeJS. MySQL was chosen for database management thanks to its simplicity, speed, and low implementation cost, and the Socket.io framework was chosen due to its reliability and ability to easily scale for multiple connected clients.
+A login feature will also be implemented for businesses that wish to use the application to create and manage queues.
+
+Finally, the researchers will also develop a time estimation algorithm that will use historical data to estimate the average waiting time for a given queue, and the expected waiting time for each user given their current position.
+Each of these different components will be coded and implemented separately for ease of management and documentation.
+
+\noindent{\textbf{Integration and Testing}} \\
+After each component has been implemented in the previous phase, they will be tested separately using a series of prepared trials to assess their performance. Once each component is confirmed to be functional, they will be integrated into the full system to be tested together. If any issues are identified when testing a component, it will be returned to the coding and implementation phase to be adjusted accordingly.
+In the case of the time estimation feature, various sample datasets will be used to test the algorithm’s effectiveness and accuracy.
+
+As the goal of the project is to merely create a functional system, deployment and maintenance are not considered.
+
+
+\section{Calendar of Activities}
+
+A Gantt chart showing the schedule of the activities should be included as a table. For example:
+
+Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
+one week worth of activity.
+
+%
+%  the following commands will be used for filling up the bullets in the Gantt chart
+%
+\newcommand{\weekone}{\textbullet}
+\newcommand{\weektwo}{\textbullet \textbullet}
+\newcommand{\weekthree}{\textbullet \textbullet \textbullet}
+\newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
+
+\begin{table}[ht] 
+\centering
+\caption{Timetable of Activities} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+\centering Activities & Feb & Mar & Apr & May & Jun \\ \hline
+Study on Prerequisite knowledge 
+& \weektwo~~~ & & & & \\ \hline
+Development of the Mobile application 
+& ~~~\weektwo & \weekfour & \weekfour & \weekfour & \\ \hline
+Development of the online database 
+& ~~~\weektwo & \weekthree~~ & & & \\ \hline
+Implementing the user interface 
+& ~~~\weektwo & \weekfour & \weekfour & \weekthree~~ & \\ \hline
+Development of the login functionality 
+& & \weekfour & \weekthree~~ & & \\ \hline
+Formulation of the time estimation algorithm 
+& & ~~~\weektwo & \weekfour & \weektwo~~~ & \\ \hline
+Testing individual components 
+& & ~~~\weektwo & \weekfour & \weekfour & \\ \hline
+Integration of components 
+& & & \weekfour & \weekfour & \weekone~~~~~ \\ \hline
+Testing integrated system 
+& & & \weekfour & \weekfour & \weektwo~~~ \\ \hline
+Analysis and interpretation of finished system 
+& & & \weekfour & \weekfour & \weekthree~~ \\ \hline
+Documentation 
+& ~~\weekthree & \weekfour & \weekfour & \weekfour & \weekfour
+\\ \hline
+\end{tabular}
+\label{tab:timetableactivities}
+\end{table}
