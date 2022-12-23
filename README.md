@@ -1,9 +1,9 @@
 # LineUp - Virtual Queue Management System
 This is a special problem addressed in parial fulfillment of requirements for CMSC 198.1 for the 1st semester of SY 2022-2023.
 
-**Developers:** 
-DEZA, Aren
-DY QUIANGCO, Christian Daniel
+**Developers:**\n
+DEZA, Aren\n
+DY QUIANGCO, Christian Daniel\n
 MOSONG, Jan Kristine
 
 **Abstract:**
