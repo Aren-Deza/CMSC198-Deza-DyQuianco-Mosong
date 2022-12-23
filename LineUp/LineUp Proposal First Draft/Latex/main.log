@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  23 DEC 2022 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  23 DEC 2022 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,7 +225,11 @@ LaTeX Warning: Unused global option(s):
     [onepage].
 
 (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux))
+(chapter_3.aux) (chapter_4.aux
+
+LaTeX Warning: Label `fig:queuecomparison' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -378,27 +382,74 @@ Chapter 3.
 
 
 
-] [11]
-Underfull \hbox (badness 1817) in paragraph at lines 65--66
+]
+Underfull \hbox (badness 1817) in paragraph at lines 63--64
 []\OT1/cmr/m/n/12 Development of the lo-gin
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 69--70
+Underfull \hbox (badness 1831) in paragraph at lines 67--68
 []\OT1/cmr/m/n/12 Testing in-di-vid-ual com-po-
  []
 
-) [12]
+[11]) [12]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-) [13
+<figures//login-signup.png, id=66, 469.755pt x 268.00125pt>
+File: figures//login-signup.png Graphic file (type png)
+<use figures//login-signup.png>
+Package pdftex.def Info: figures//login-signup.png  used on input line 7.
+(pdftex.def)             Requested size: 352.31538pt x 201.00043pt.
+<figures//BusinessView.png, id=67, 469.755pt x 200.24812pt>
+File: figures//BusinessView.png Graphic file (type png)
+<use figures//BusinessView.png>
+Package pdftex.def Info: figures//BusinessView.png  used on input line 14.
+(pdftex.def)             Requested size: 352.31538pt x 150.18571pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//CustomerView1.png, id=68, 350.81062pt x 405.01312pt>
+File: figures//CustomerView1.png Graphic file (type png)
+<use figures//CustomerView1.png>
+Package pdftex.def Info: figures//CustomerView1.png  used on input line 21.
+(pdftex.def)             Requested size: 263.10732pt x 303.75908pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//CustomerView2.png, id=69, 469.755pt x 267.24844pt>
+File: figures//CustomerView2.png Graphic file (type png)
+<use figures//CustomerView2.png>
+Package pdftex.def Info: figures//CustomerView2.png  used on input line 28.
+(pdftex.def)             Requested size: 352.31538pt x 200.43584pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//CustomerView3.png, id=70, 224.33812pt x 398.23781pt>
+File: figures//CustomerView3.png Graphic file (type png)
+<use figures//CustomerView3.png>
+Package pdftex.def Info: figures//CustomerView3.png  used on input line 35.
+(pdftex.def)             Requested size: 168.25317pt x 298.67761pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//CustomerView4.png, id=71, 228.855pt x 398.99063pt>
+File: figures//CustomerView4.png Graphic file (type png)
+<use figures//CustomerView4.png>
+Package pdftex.def Info: figures//CustomerView4.png  used on input line 42.
+(pdftex.def)             Requested size: 171.64082pt x 299.24223pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13
 
 
 
 
-] (main.bbl
+ <./figures//login-signup.png>]) [14 <./figures//BusinessView.png>] [15 <./figu
+res//CustomerView1.png> <./figures//CustomerView2.png>] [16 <./figures//Custome
+rView3.png>] [17 <./figures//CustomerView4.png>] (main.bbl
 Underfull \hbox (badness 1783) in paragraph at lines 112--125
 []\OT1/cmr/m/n/12 Brooke, C.  (2013).  Why busi-nesses are choos-ing to ditch t
 he wait-
@@ -434,7 +485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--294
 waiting [] []lines / links /
  []
 
-[14
+[18
 
 
 
@@ -450,27 +501,30 @@ Underfull \hbox (badness 1931) in paragraph at lines 500--513
 og / consumer [] -survey [] -waiting []
  []
 
-) [15] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
-) (chapter_3.aux) (chapter_4.aux)) ) 
+) [19] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
+) (chapter_3.aux) (chapter_4.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4888 strings out of 478338
- 77746 string characters out of 2834776
- 385817 words of memory out of 3000000
- 23201 multiletter control sequences out of 15000+600000
+ 4947 strings out of 478338
+ 80258 string characters out of 2834776
+ 385912 words of memory out of 3000000
+ 23254 multiletter control sequences out of 15000+600000
  477518 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,10n,81p,1061b,361s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Aren Deza\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Aren Deza/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Us
-ers/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmti12.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (21 pages, 138862 bytes).
+ 77i,10n,81p,1061b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1200.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Aren Deza/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Aren Deza/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Aren 
+Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (25 pages, 601916 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
