@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: title_page.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_1.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_4.aux
+Illegal, another \bibstyle command---line 9 of file main.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: myreferences.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in brooke2013ditch
+ptr=1, stack=
+
+---the literal stack isn't empty for entry brooke2013ditch
+while executing---line 5079 of file apacite.bst
+Warning--No journal in thamrin2020qmatic
+ptr=1, stack=
+
+---the literal stack isn't empty for entry thamrin2020qmatic
+while executing---line 5079 of file apacite.bst
+Warning--No journal in TamisCorp2013
+Warning--No journal in waitwhile2022survey
+ptr=1, stack=
+
+---the literal stack isn't empty for entry waitwhile2022survey
+while executing---line 5079 of file apacite.bst
+You've used 20 entries,
+            6951 wiz_defined-function locations,
+            1404 strings with 14356 characters,
+and the built_in function-call counts, 31730 in all, are:
+= -- 4003
+> -- 268
+< -- 1241
++ -- 1159
+- -- 54
+* -- 1828
+:= -- 5278
+add.period$ -- 85
+call.type$ -- 20
+change.case$ -- 344
+chr.to.int$ -- 0
+cite$ -- 44
+duplicate$ -- 813
+empty$ -- 1477
+format.name$ -- 392
+if$ -- 6452
+int.to.chr$ -- 0
+int.to.str$ -- 60
+missing$ -- 0
+newline$ -- 495
+num.names$ -- 164
+pop$ -- 693
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 2392
+stack$ -- 0
+substring$ -- 1331
+swap$ -- 482
+text.length$ -- 67
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1792
+warning$ -- 4
+while$ -- 138
+width$ -- 0
+write$ -- 570
+(There were 4 error messages)

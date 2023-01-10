@@ -1,0 +1,97 @@
+%   Filename    : chapter_3.tex 
+\chapter{Research Methodology}
+
+\section{Research Activities}
+
+The development of this project will be executed by following the waterfall model of design, which is a sequential approach to software development where the project is completed in various stages. As the development team is constrained by both time and budget, the waterfall model is deemed appropriate to use due to its simplicity, structure, and low time consumption. Furthermore, the sequential approach to development offered by the waterfall method is effective to use in the case of this particular project, where the requirements are not necessarily complex, and the project’s scope is clearly defined by the developers’ own specifications ahead of time.
+
+In line with this approach, the project’s development is structured into four distinct phases discussed below, although it needs to be remarked that the goal of the project is to merely create a functional system. Therefore, deployment and maintenance are not considered in our research activities.
+
+\noindent{\textbf{Analysis and Requirements gathering}} \\
+Identifying inconvenient physical queueing strategies as a problem that needed to be solved, the researchers conducted a review of related literature to identify the issues with most conventional queuing systems used in various businesses and contexts, and to investigate various technology-based solutions. The researchers then identified virtual queuing systems as a suitable technology-based solution that could be reasonably implemented given the available resources, and then worked to conceptualize how such a system could be implemented in a local context to help various businesses.
+
+For this project, the researchers opted to use a cloud-based queueing system that users could access through their mobile devices, as it would be the method most accessible for people within a local context. With this in mind, the researchers opted to develop a mobile application that could fulfill this purpose.
+
+The researchers then evaluated other virtual queueing applications and services, analyzing each system’s strengths and weaknesses. It was identified that the majority of the systems that disclosed the methodology of their creation and design also opted for cloud-based systems that users could connect to through a mobile application. Furthermore, as most of the systems reviewed were hampered either by a lack of features or limited accessibility to most private users, the researchers opted to have the finished product be freely-available and easy to access, while still providing users with a host of useful features. 
+
+\noindent{\textbf{System and Product Design}} \\
+Once the requirements have been established, the developers work on defining the features and functionalities of the system. Within the virtual queue system to be made for this project, the researchers first established its basic functionalities, which are discussed below:
+
+Once users download the application, they must create an account to access the system’s services. Once an account has been created, they can use the application to either create a new queue, or join a queue that was created by someone else. It was decided that a login and user account system would be necessary to help facilitate fast communication between the server and the application, help with user verification, and provide additional conveniences such as allowing the use of multiple devices to access one account.
+
+When creating a new queue, the user would input information relevant to it, such as the name of the business that the queue is for, the type of service it provides, and the queue’s physical address. Once the queue is created, its information would be uploaded and hosted on a server, where it would remain until the user decides to delete the queue. 
+
+If a user wishes to join a queue, they will have the option to browse through a list of available queues, search the queue by the business’ name, or enter a code that will immediately allow them to join the queue. Once they have joined, they are reserved a position within the queue until it is their turn, where they are able to travel to the location of the business to perform their desired transaction. Once a transaction has been completed, the creator of the queue will tap a button in the application to update the queue, dequeuing the user who has just finished their transaction and moving everyone else in the queue forward by one space.
+
+While designing additional features that would provide additional benefits to using the application, the researchers considered various statistics that would be relevant to users when deciding on whether to join a queue, and when they were currently waiting in the queue. For purposes of providing the user with additional convenience, the product would be designed to have these metrics available to users when joining and waiting within a queue. These metrics included things such as the number of people currently waiting in line, mean waiting time, expected waiting time based on past data and the user’s current position, queue throughput, and mean service time, and the number of people currently waiting in line ahead of the user.
+
+For further convenience, the researchers designed the system to prompt the user through app notifications when their turn would be approaching, and when they were next in line to be served. This would grant them sufficient time to travel to the physical location of the queue. Additionally, at any time, users would have the option to delay their position in the queue, allowing a specified number of other users to move forward in the queue to take their place. This is intended to afford users greater flexibility in their waiting times, and should help prevent congestion in case one user is anticipated to be holding up the line.
+
+After establishing the system’s basic functionality and special features, the researchers developed the concept for the project’s front end using Figma, a prototyping and interface design tool.
+
+All design decisions and other information relevant to the project’s creation and development were then compiled in the form of a project proposal to be delivered to the system’s stakeholders for consultation and approval.
+
+\noindent{\textbf{Coding and implementation}} \\
+
+This phase is expected to take the most development time, and will thus be given an appropriate amount of attention so that each of the application’s intended functionalities will be properly implemented.
+
+The mobile application’s front end is to be built using the Kotlin programming language, using Android Studio as an integrated development environment with the Flutter software development kit. Kotlin and Android Studio were considered to be an appropriate choice due to the developers already being familiar with their use, and the Flutter SDK was selected to ensure the application could be compatible with both Android and iOS operating systems.
+
+The backend will be built using a MySQL database, and the Socket.io framework for NodeJS. MySQL was chosen for database management thanks to its simplicity, speed, and low implementation cost, and the Socket.io framework was chosen due to its reliability and ability to easily scale for multiple connected clients. This database would be used to handle user accounts, queue data, and the metrics for each queue.
+
+Finally, the researchers will also develop a time estimation algorithm that will use historical data to estimate the average waiting time for a given queue, the average service time for each queue, and the expected waiting time for each user given their current position. 
+
+It was anticipated that the average waiting time and average service time could be obtained by performing a simple mean operation with the queue’s past data. Similarly, the expected waiting time for a given customer given their position in the queue could be calculated by multiplying the user's current position in the queue by the average service time.
+
+Each of these different components will be coded and implemented separately for ease of management and documentation.
+
+\noindent{\textbf{Integration and Testing}} \\
+After each component has been implemented in the previous phase, they will be tested separately using a series of prepared trials to assess their performance. Once each component is confirmed to be functional, they will be integrated into the full system to be tested together. If any issues are identified when testing a component, it will be returned to the coding and implementation phase to be adjusted accordingly.
+
+In the case of the algorithm for estimating queue metrics such as average service time and expected wait time, various sample datasets obtained from the internet will be used to test the algorithm’s effectiveness and accuracy. 
+
+\section{Calendar of Activities}
+
+Table \ref{tab:timetableactivities} shows a Gantt chart of the activities. Each bullet represents approximately
+one week worth of activity.
+
+%
+% the following commands will be used for filling up the bullets in the Gantt chart
+%
+\newcommand{\weekone}{\textbullet}
+\newcommand{\weektwo}{\textbullet \textbullet}
+\newcommand{\weekthree}{\textbullet \textbullet \textbullet}
+\newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
+
+\begin{table}[ht]
+\centering
+\caption{Timetable of Activities} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+\centering Activities & Feb & Mar & Apr & May & Jun \\ \hline
+Study on Prerequisite knowledge
+& \weektwo~~~ & & & & \\ \hline
+Development of the Mobile application
+& ~~~\weektwo & \weekfour & \weekfour & \weekfour & \\ \hline
+Development of the online database
+& ~~~\weektwo & \weekthree~~ & & & \\ \hline
+Implementing the user interface
+& ~~~\weektwo & \weekfour & \weekfour & \weekthree~~ & \\ \hline
+Development of the login functionality
+& & \weekfour & \weekthree~~ & & \\ \hline
+Formulation of the time estimation algorithm
+& & ~~~\weektwo & \weekfour & \weektwo~~~ & \\ \hline
+Testing individual components
+& & ~~~\weektwo & \weekfour & \weekfour & \\ \hline
+Integration of components
+& & & \weekfour & \weekfour & \weekone~~~~~ \\ \hline
+Testing integrated system
+& & & \weekfour & \weekfour & \weektwo~~~ \\ \hline
+Analysis and interpretation of finished system
+& & & \weekfour & \weekfour & \weekthree~~ \\ \hline
+Documentation
+& ~~\weekthree & \weekfour & \weekfour & \weekfour & \weekfour
+\\ \hline
+\end{tabular}
+\label{tab:timetableactivities}
+\end{table}
+

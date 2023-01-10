@@ -1,0 +1,116 @@
+% Filename : chapter_1.tex
+\chapter{Introduction}
+\label{sec:researchdesc} %labels help you reference sections of your document
+
+\section{Overview of the Current State of Technology}
+\label{sec:overview}
+
+Queueing systems are mathematical models of congestion that exist in any facility that produces a queue from customers requesting a service it cannot simultaneously handle \cite{Armero2001,Srivasta2003}. Instances of queue systems can be observed in daily life from the lines formed in amusement parks, reservations for restaurants, and ticket numbering in banks.
+
+These systems are simple: the first persons to arrive are the first persons to be served. However, as the number of requests increases, so does congestion. To effectively manage this congestion, queue management systems are implemented. These have the dual effect of improving customer experience and maximizing profit \cite{TamisCorp2013}.
+
+Several different types of queue management systems exist to provide solutions to different problems in queueing. Among these are technology-based solutions that have become more necessary in recent years, and have become much easier to implement thanks to advancements in technology.
+
+Virtual queue management systems are one such solution, which function similar to ticketing systems where customers receive a ticket to represent their position in a queue, and are then made to wait within a designated space until they are prompted for their turn.
+
+Unlike these ticketing systems, virtual queues completely eliminate the need to wait within a designated space, and ensure that the only time a person needs to be physically present is when it is their turn to be served. Customers have the option of receiving a ticket online, and have the luxury of spending their waiting time wherever and however they like.
+
+To avoid the problem of customers not knowing when it is their turn, virtual queue systems frequently have a means of prompting their customers when it is close to their turn, allowing them adequate time to travel to the facility.
+
+In effect, this simultaneously removes congestion problems, reduces perceived wait time, improves customer time budgeting, and provides customers with better experiences overall.
+
+While this technology could potentially be of significant help for people within the local setting, their access to it is somewhat limited. Other applications and services that provide this technology are either locked behind subscription services, are lacking in features, or are unavailable to users within the Philippines.
+
+Therefore, the goal of this project is to create an application that provides access to virtual queueing technology that is free and readily available for all Filipinos to use.
+
+
+\section{Problem Statement}
+
+The Oxford Dictionary of English \citeyear{OxfordDictionary2022} defines queues as “a line or sequence of people or vehicles awaiting their turn to be attended to or to proceed”. Although it is commonly understood that needing to wait in line is a regular occurrence in daily life, the act of physically lining up can grow to be cumbersome and inconvenient, imposing economic and psychological costs on all involved.
+
+Standing in line for extended periods can “create severe difficulties for those seeking to combine work and family life” \cite{Bittman2000}, and can be especially challenging for the elderly, pregnant women, and disabled individuals. Furthermore, physically lining up can also pose medical risks due to the COVID-19 pandemic, as large numbers of people gathered in one location increase the risk of spreading communicable diseases.
+
+With time being a crucial factor in everyone's lives, Jacoby \citeyear{Jacoby1974} anticipated the growing intolerance of waiting and noticed that people look for alternative ways to reduce the time idly waiting to pursue engaging activities.
+
+Such alternatives include various software and technology-based solutions that aim to remove the need to physically queue, or mitigate the negative effects associated with it.
+
+The COVID-19 pandemic saw a rise in businesses transitioning to e-commerce platforms and other forms of online transactions that remove the need for physical contact \cite{alfonso2021commerce}. However, these online methods can be costly for both businesses and customers, and do not account for transactions that require customers to be physically present, such as medical consultations, automobile services, and bank account creation. As such, there is still a need to find a cost-effective solution to the difficulties imposed by physical queueing.
+
+One technology-based solution is the implementation of virtual queueing, which addresses the concern of vulnerability to health risks and time budgeting by removing the need to enter a physical line until it is time to be served, allowing people more freedom in where and how they choose to wait.
+
+
+\section{Research Objectives}
+\label{sec:researchobjectives}
+
+
+\subsection{General Objective}
+\label{sec:generalobjective}
+
+The overall goal of this project is to reduce the amount of time in their daily lives that people spend waiting in line, which has potential to produce positive effects on their physical and mental wellbeing, and will allow them more time to spend on other activities.
+
+In pursuit of this goal, the researchers intend to develop a cloud and mobile based queueing system that is accessible through a free and readily-available application. Businesses will be able to use this system to allow their customers to join queues without needing to be physically present until it’s their turn to make a transaction, similar to an online ticketing system.
+
+
+\subsection{Specific Objectives}
+\label{sec:specificobjectives}
+
+In line with the general objectives of this project, the specific objectives are:
+
+\begin{enumerate}
+	\item To analyze existing virtual queue systems to understand how they are implemented and what they are lacking.
+	\item To design a virtual queue management system that will allow people to enter queues without needing to be physically present until their turn.
+	\item To develop a mobile and cloud based application that businesses and customers can use to access this virtual queue management system.
+	\item To formulate and implement an algorithm to estimate average wait times, throughput, and mean service time for each queue, along with expected wait times for each user based on the queue's history.
+\end{enumerate}
+
+
+\section{Scope and Limitations of the Research}
+\label{sec:scopelimitations}
+
+The scope of this project includes planning, designing, and implementing a virtual queue management system that can be used by anyone with an internet connection.
+The system will allow businesses with registered accounts to create, manage, and update queues for their customers, and customers will be able to use a mobile application to track their positions on queues and receive notifications when it is close to their turn.
+
+The application will also include an algorithm that predicts the expected wait time for a customer based on their current position based on historical data, and calculates the average wait time for a given queue.
+
+This research project is additionally constrained by a number of limitations that could hopefully be addressed and avoided by future projects that aim to achieve similar goals.
+
+The project is subject to time and budget constraints, as there is a limited timeframe allowed to complete the project, and the researchers have limited access to resources that are normally available to commercial developers.
+
+Furthermore, the technology also requires an internet connection to function as intended. People who do not have access to the internet and people who are less technologically literate may find difficulty in using the system.
+
+
+\begin{comment}
+
+%
+% IPR acknowledgement: the sentences inside this comment are from Ethel Ong's slides on Scope and Limitations of the Research
+%
+Generally, one paragraph should be allotted for each of your research objectives.
+
+Each paragraph contains a brief overview of the concept/theory and the purpose of doing the associated objective.
+
+Each paragraph also includes a description of the scope/limitation of your study.
+
+* Please refer to the slides for examples.
+
+\end{comment}
+
+
+\section{Significance of the Research}
+\label{sec:significance}
+
+This research project has the potential to benefit the following groups:
+
+\noindent{\textbf{Local businesses}} \\
+As established, having the ability to mitigate the perceived waiting time for customers, local businesses will be able to significantly improve the experiences of their customers. Furthermore, reducing the need to reserve space for physical queues and designated waiting areas will allow businesses to maximize the space they are able to work with.
+
+\noindent{\textbf{Clientele of local businesses}} \\
+The customers of local businesses can benefit from this project in that they will have the luxury of deciding how they spend their time that would normally be dedicated to waiting in lines. Furthermore, they will also be able to avoid the inconveniences and negative effects associated with waiting in lines for extended periods.
+
+\noindent{\textbf{Senior citizens, pregnant women, and disabled individuals}} \\
+For individuals who are unable to stand in queues for extended periods of time due to health-related reasons, the technology proposed by this project has the potential to help them avoid placing themselves at further risk.
+
+\noindent{\textbf{Health Workers}} \\
+Due to how congestion in queues tends to increase the risk of spreading communicable diseases, the implementation of virtual queues in local businesses can potentially improve the efficiency with which social distancing can be enforced.
+
+\noindent{\textbf{Future developers}} \\
+Finally, this research project will be beneficial to researchers and developers who wish to develop their own digital queue management systems by laying groundwork that can be potentially expanded and improved upon.
