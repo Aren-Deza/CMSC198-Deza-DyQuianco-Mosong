@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="join_the_queue_nfrom_anywhere_nanytime_any_place_nwith_one_click">Join the queue\nfrom anywhere,\nanytime, any place\nwith one click.</string>
+    <string name="lineup">LineUp</string>
+</resources>
