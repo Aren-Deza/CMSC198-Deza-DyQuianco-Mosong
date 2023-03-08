@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">LineUp</string>
-    <string name="lineup">LineUp</string>
-    <string name="join_the_queue_n_from_anywhere_n_anytime_any_place_n_with_one_click">Join the queue \n from anywhere, \n anytime, any place \n with one click</string>
-    <string name="sign_in">Sign in</string>
-    <string name="create_an_account">Create an account</string>
-</resources>
